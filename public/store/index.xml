@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stores on SASS</title>
+    <link>http://replace-this-with-your-hugo-site.com/store/</link>
+    <description>Recent content in Stores on SASS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Oct 2016 18:41:04 +0530</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/store/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Features</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/</link>
+      <pubDate>Wed, 05 Oct 2016 18:41:04 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/</guid>
+      <description>&lt;h1 class=&#34;chapterHeading&#34;&gt;Sass Features&lt;/h1&gt;
+
+&lt;p class=&#34;chapterTitle&#34;&gt; Make the most of it &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Structuring</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/structure/</link>
+      <pubDate>Wed, 05 Oct 2016 18:41:44 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/structure/</guid>
+      <description>&lt;p&gt;Structuring in Sass&lt;/p&gt;
+
+&lt;p&gt;Getting your site structure correct from the beginning is vital for any new Sass project.&lt;/p&gt;
+
+&lt;p&gt;Using partials allows you to break the CSS up into smaller more manageable blocks of code that are easier to maintain and develop.&lt;/p&gt;
+
+&lt;p&gt;Place all mixins, functions, placeholders and variables in their relevant partial file. &lt;br/&gt;
+&lt;u&gt;The 7-1 Pattern&lt;/u&gt;
+Basically, you have all your partials stuffed into 7 different folders, and a single file at the root level (usually named main.scss) which imports them all to be compiled into a CSS stylesheet. Eg :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;..\Tree.png&#34; &gt;&lt;/img&gt;&lt;br/&gt;
+Other folders are abstract, vendors, themes and pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;What have we learnt, what do we know : &lt;/b&gt; &lt;br/&gt;
+A Single Sass file can become really huge and messy, use Partials.&lt;br/&gt;
+Depending on the complexity of the project, you can have sets of partials into smaller categories.&lt;br/&gt;
+Use descriptive names for your files because it helps you and others find them quickly.&lt;br/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modularization</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/modularization/</link>
+      <pubDate>Wed, 05 Oct 2016 18:41:44 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/modularization/</guid>
+      <description>&lt;p&gt;Modularization in Sass&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/variables/</link>
+      <pubDate>Wed, 05 Oct 2016 18:53:00 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/variables/</guid>
+      <description>&lt;p&gt;Variables in Sass&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mixins</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/mixins/</link>
+      <pubDate>Wed, 05 Oct 2016 18:53:26 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/mixins/</guid>
+      <description>&lt;p&gt;Mixins&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Placeholders</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/placeholders/</link>
+      <pubDate>Wed, 05 Oct 2016 18:53:35 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/placeholders/</guid>
+      <description>&lt;p&gt;Placeholders &amp;ndash; The Extend Keyword&lt;/p&gt;
+
+&lt;p&gt;1.Unlike mixins, placeholders can be used multiple times without adding any duplicate code.This makes them a much friendlier option for outputting DRY CSS&lt;br/&gt;
+2.Including a mixin is the same as copying and pasting the styles throughout the CSS file. It creates a mass of duplicate code and can bloat your CSS file.&lt;br/&gt;
+3. The repeated code in the placeholder is output only once with only the unique styles being applied to the individual selectors. &lt;br/&gt;
+4.If unused, the placeholder styles are not output at all. &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;Take an example of usage of  Extend keyword &amp;amp; how it works
+&lt;img src=&#34;../placeholder1.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../placeholder2.png&#34;&gt;
+Placeholders and Mixins together help to reduce code duplication.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nesting</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/Nesting/</link>
+      <pubDate>Wed, 05 Oct 2016 19:00:15 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/Nesting/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Nesting in Sass : &lt;/b&gt;
+To ensure the CSS output is clean and reusable, we need to avoid misuse of nesting.
+While nesting upto certain level perfectly makes sense, it should not be made as a default option.&lt;/p&gt;
+
+&lt;p&gt;Overusing nested rules in Sass can cause a lot of issues,
+From complex code
+To over-specificity and
+Too much reliance on the HTML structure of a page. &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;These things potentially increase the need for the inclusion of !important&lt;/p&gt;
+
+&lt;p&gt;Excess nesting decreases code reusability. &lt;br/&gt;
+Hence Nesting should be limited to 3 levels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Looping</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/Looping/</link>
+      <pubDate>Wed, 05 Oct 2016 19:00:26 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/Looping/</guid>
+      <description>&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Quotes ?</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/Quotes/</link>
+      <pubDate>Wed, 05 Oct 2016 19:01:12 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/Quotes/</guid>
+      <description>&lt;p&gt;Using Quotes is not necessary in Sass. &lt;br&gt;
+But there is no valid reason to not quote strings.
+It is recommended to use quotes to maintain consistency with other languages, including CSS&amp;rsquo;s cousin JavaScript.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;There are several reasons for this choice: &lt;br&gt;
+•   CSS color names are treated as colors when unquoted, which can lead to serious issues &lt;br/&gt;
+•   Most syntax highlighters will choke on unquoted strings &lt;br&gt;
+•   It aids general readability &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong style=&#34;font-style:italic&#34;&gt; What do we know, what did we learn :
+&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;// Good Practise    &lt;br&gt;
+$direction: &amp;lsquo;left&amp;rsquo;; &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;// Bad Practise     &lt;br&gt;
+$direction: left;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Selectors</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/Selectors/</link>
+      <pubDate>Wed, 05 Oct 2016 19:00:59 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/Selectors/</guid>
+      <description>&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Readability</title>
+      <link>http://replace-this-with-your-hugo-site.com/store/Readability/</link>
+      <pubDate>Wed, 05 Oct 2016 19:00:50 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/store/Readability/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Indentation &amp;amp; Readability&lt;/strong&gt; &lt;br&gt;
+Sass initially described a syntax of which the defining characteristic was its indentation-sensitivity.&lt;br&gt;
+Soon enough, Sass maintainers decided to close the gap between Sass and CSS by providing a CSS-friendly syntax called SCSS for Sassy CSS. &lt;br&gt;
+•   Two (2) spaces indents, no tabs &lt;br&gt;
+•   Ideally, 80-characters wide lines &lt;br&gt;
+•   Properly written multi-line CSS rules &lt;br&gt;
+•   Meaningful use of whitespace. &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;// That&amp;rsquo;s Right !! &lt;br&gt;
+.foo {
+  display: block;
+  overflow: hidden;
+  padding: 0 1em;
+}&lt;/p&gt;
+
+&lt;p&gt;// Not a Good one &lt;br&gt;
+.foo {
+    display: block; overflow: hidden;
+            padding: 0 1em;
+}&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

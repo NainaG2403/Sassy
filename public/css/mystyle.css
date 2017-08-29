@@ -1,0 +1,31 @@
+/* background behind the logo*/
+#header {
+    background: black;
+    border-color: rgb(250, 117, 189);
+}
+
+/* Background color of the menu */
+#sidebar {
+  background-color: black;
+}
+
+/* Background color of the menu, when clicked */
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+  //background-color: gray;
+}
+
+/* Color of all links, including arrows to get to previous and next pages */
+a {
+    color: rgb(250, 117, 189);
+}
+a:hover {
+   color: white;
+}
+
+#chapter h1{
+	border-bottom-color: black;
+}
+
+#chapter p{
+	font-size: 30px;
+}

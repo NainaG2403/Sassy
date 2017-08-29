@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <lastmod>2016-10-05T18:41:04+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/</loc>
+    <lastmod>2016-10-05T18:41:04+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/basics/</loc>
+    <lastmod>2016-10-05T18:40:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/structure/</loc>
+    <lastmod>2016-10-05T18:41:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/basics/sass/</loc>
+    <lastmod>2016-10-05T18:40:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/modularization/</loc>
+    <lastmod>2016-10-05T18:41:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/basics/overCss/</loc>
+    <lastmod>2016-10-05T18:40:39+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/variables/</loc>
+    <lastmod>2016-10-05T18:53:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/mixins/</loc>
+    <lastmod>2016-10-05T18:53:26+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/placeholders/</loc>
+    <lastmod>2016-10-05T18:53:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/Nesting/</loc>
+    <lastmod>2016-10-05T19:00:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/Looping/</loc>
+    <lastmod>2016-10-05T19:00:26+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/Quotes/</loc>
+    <lastmod>2016-10-05T19:01:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/Selectors/</loc>
+    <lastmod>2016-10-05T19:00:59+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/store/Readability/</loc>
+    <lastmod>2016-10-05T19:00:50+05:30</lastmod>
+  </url>
+  
+</urlset>

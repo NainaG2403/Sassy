@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics on SASS</title>
+    <link>http://replace-this-with-your-hugo-site.com/basics/</link>
+    <description>Recent content in Basics on SASS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Oct 2016 18:40:09 +0530</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sassy Css </title>
+      <link>http://replace-this-with-your-hugo-site.com/basics/</link>
+      <pubDate>Wed, 05 Oct 2016 18:40:09 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/basics/</guid>
+      <description>&lt;h1 class=&#34;chapterHeading&#34;&gt;SASS/SCSS &lt;/h1&gt;
+
+&lt;p class=&#34;chapterTitle&#34;&gt; 
+    &lt;ul&gt;
+        &lt;li&gt; What is Sass ?&lt;/li&gt;
+        &lt;li&gt; Why Sass ?&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sass</title>
+      <link>http://replace-this-with-your-hugo-site.com/basics/sass/</link>
+      <pubDate>Wed, 05 Oct 2016 18:40:27 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/basics/sass/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;u&gt;Sass - Syntactically Awesome Style-Sheets : &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sass is basically an extension of CSS that adds power and elegance to the basic language.
+CSS, though very simple to learn, it can quickly get quite messy, especially on large projects. Sass’ ultimate objective is to fix CSS’ flaws.&lt;/p&gt;
+
+&lt;p&gt;There are two syntaxes available for Sass.&lt;/p&gt;
+
+&lt;p&gt;The first, known as &lt;u&gt;SCSS (Sassy CSS)&lt;/u&gt; will be used across our examples, is an extension of the syntax of CSS.
+This means that every valid CSS stylesheet is a valid SCSS file with the same meaning. Files using this syntax have the .scss extension.&lt;/p&gt;
+
+&lt;p&gt;The second and older syntax, known as the indented syntax aka &lt;u&gt;“Sass”&lt;/u&gt;, provides a more concise way of writing CSS.
+It uses indentation rather than brackets to indicate nesting of selectors, and newlines rather than semicolons to separate properties.
+Files using this syntax have the .sass extension.&lt;/p&gt;
+
+&lt;p&gt;Sass initially described a syntax of which the defining characteristic was its indentation-sensitivity. &lt;br/&gt;
+Soon enough, Sass maintainers decided to close the gap between Sass and CSS by providing a CSS-friendly syntax called SCSS for Sassy CSS.
+The motto is: if it’s valid CSS, it’s valid SCSS.&lt;/p&gt;
+
+&lt;p&gt;So thats it about SCSS.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sass/SCSS vs css</title>
+      <link>http://replace-this-with-your-hugo-site.com/basics/overCss/</link>
+      <pubDate>Wed, 05 Oct 2016 18:40:39 +0530</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/basics/overCss/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;u&gt; Why Sass over CSS&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;SCSS and SASS are the advance version of CSS3 (CSS),
+These are their extension which allow you to write clean and quickly they are help tools for CSS language itself.
+With these preprocessors you can write more reusable code.&lt;/p&gt;
+
+&lt;p&gt;The point is not to turn CSS into a fully featured programming language; Sass only wants to help where CSS fails
+So it simply adds a couple of extra features on top of it.
+It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax.&lt;/p&gt;
+
+&lt;p&gt;We will have a look at these features in the upcoming sections.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
