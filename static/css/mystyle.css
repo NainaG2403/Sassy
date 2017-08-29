@@ -4,6 +4,12 @@
     border-color: rgb(250, 117, 189);
 }
 
+/* background behind the logo*/
+#header-wrapper{
+	background: black;
+	border-bottom: 4px solid rgb(250, 117, 189);
+}
+
 /* Background color of the sidebar */
 #sidebar {
   background-color: black;
