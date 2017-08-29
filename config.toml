@@ -1,4 +1,4 @@
-baseurl = "https://sassystyle.herokuapp.com/basics"
+baseurl = "https://sassystyle.herokuapp.com/"
 languageCode = "en-us"
 title = "SASS"
 theme = "hugo-theme-learn"
